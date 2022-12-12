@@ -19,6 +19,7 @@ namespace FluentApi.Domain.Services
             public Dictionary<String, String> relevantHeaders;
         }
         const string subscriptionKey = "3beee7f4-5f7e-4e18-bba6-e2182bdce82a";
+        
         const string uriBase = "https://api.cognitive.microsoft.com/bing/v7.0/images/search";
         public static SearchResult BingImageSearch(string SearchTerm)
         {
